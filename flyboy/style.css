@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    font-family: Arial;
+    color: white;
+}
+
+.btn-red {
+    background-color: rgba(238,0,20,0.86);
+    color: black;
+    font-weight: bold;
+}
+
+.btn-red:hover {
+    background-color: white;
+}
+
+.product-card {
+    background-color: #000;
+    border: 1px solid rgba(238,0,20,0.6);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+}
+
+.product-img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(255,0,0,0.4);
+}
+
+h2 {
+    color: rgba(238,0,20,0.86);
+}
